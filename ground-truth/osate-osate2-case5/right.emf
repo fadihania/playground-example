@@ -1,0 +1,92 @@
+package aadl2;
+
+abstract class ComponentImplementation {
+  val AbstractSubcomponent[*] ownedAbstractSubcomponent;
+  val AccessConnection[*] ownedAccessConnection;
+  attr ecore.EFeatureMapEntry[*] subcomponents;
+  attr ecore.EFeatureMapEntry[*] connections;
+  attr ecore.EFeatureMapEntry[*] flows;
+  ref ComponentType[1] type;
+  val Subcomponent[*] ownedSubcomponent;
+  ref ComponentImplementation[0..1] extended;
+  val FlowImplementation[*] ownedFlowImplementation;
+  val Connection[*] ownedConnection;						// Matched with ownedPortProxy in this smaller case
+  ref ImplementationExtension[0..1] ownedExtension;
+  ref Realization[1] ownedRealization;
+  val EndToEndFlow[*] ownedEndToEndFlow;
+  val ParameterConnection[*] ownedParameterConnection;
+  val PortConnection[*] ownedPortConnection;
+  val FeatureConnection[*] ownedFeatureConnection;
+  val FeatureGroupConnection[*] ownedFeatureGroupConnection;
+  val ProcessorSubprogram[*] ownedProcessorSubprogram;
+  attr Boolean[1] noSubcomponents;
+  attr Boolean[1] noConnections;
+  attr Boolean[1] noCalls;
+}
+
+class AbstractSubcomponent {
+}
+
+class AccessConnection {
+}
+
+abstract class ComponentClassifier {
+  val InternalEvent[*] ownedInternalEvent;
+  val ProcessorPort[*] ownedProcessorPort;
+}
+
+class InternalEvent extends PortConnectionEnd {
+}
+
+abstract class ComponentType {
+}
+
+abstract class Subcomponent {
+}
+
+class FlowImplementation {
+}
+
+abstract class Connection {
+}
+
+class ImplementationExtension {
+}
+
+class Realization {
+}
+
+class EndToEndFlow {
+}
+
+class ParameterConnection {
+}
+
+class PortConnection {
+}
+
+class FeatureConnection {
+}
+
+class FeatureGroupConnection {
+}
+
+class ProcessorSubprogram extends AccessConnectionEnd {
+}
+
+datatype Boolean : boolean;
+
+class ComponentPrototype {
+}
+
+abstract class ComponentPrototypeActual {
+}
+
+abstract class AccessConnectionEnd {
+}
+
+class ProcessorPort extends PortConnectionEnd {
+}
+
+abstract class PortConnectionEnd {
+}

@@ -1,0 +1,35 @@
+package aadl2;
+
+class ComponentReference {
+}
+
+class ComponentPrototypeReference {
+}
+
+enum ComponentCategory {
+  ~abstract = 0;
+  bus = 1;
+  data = 2;
+  device = 3;
+  memory = 4;
+  process = 5;
+  processor = 6;
+  subprogram = 7;
+  subprogramGroup = 8;
+  system = 9;
+  thread = 10;
+  threadGroup = 11;
+  virtualBus = 12;
+  virtualProcessor = 13;
+}
+
+class ComponentPrototype {
+  attr ComponentCategory[1] category;
+  attr Boolean[1] array;
+  ref ComponentClassifier[0..1] constrainingClassifier;
+}
+
+datatype Boolean : boolean;
+
+abstract class ComponentClassifier {
+}

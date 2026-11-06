@@ -1,0 +1,43 @@
+package aadl2;
+
+class AbstractPrototype {
+}
+
+class BusPrototype {
+}
+
+class DataPrototype {
+}
+
+class DevicePrototype {
+}
+
+class MemoryPrototype {
+}
+
+class ProcessPrototype {
+}
+
+class ProcessorPrototype {
+}
+
+class SubprogramPrototype {
+}
+
+class SubprogramGroupPrototype {
+}
+
+class SystemPrototype {
+}
+
+class ThreadPrototype {
+}
+
+class ThreadGroupPrototype {
+}
+
+class VirtualBusPrototype {
+}
+
+class VirtualProcessorPrototype {
+}

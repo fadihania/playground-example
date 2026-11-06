@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<compare:Comparison xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compare="http://www.eclipse.org/emf/compare">
+  <matchedResources leftURI="platform:/resource/playground-example/ground-truth/osate-osate2-case3_a/left.ecore"/>
+  <matchedResources rightURI="platform:/resource/playground-example/ground-truth/osate-osate2-case3_a/right.ecore"/>
+  <matches>
+    <submatches>
+      <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+        <attribute href="http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name"/>
+      </differences>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_a/left.ecore#//ComponentPrototype"/>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_a/right.ecore#//ComponentPrototypeActual"/>
+    </submatches>
+    <submatches>
+      <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+        <attribute href="http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name"/>
+      </differences>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_a/left.ecore#//ComponentPrototypeActual"/>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_a/right.ecore#//ComponentPrototype"/>
+    </submatches>
+    <differences xsi:type="compare:ReferenceChange" kind="MOVE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_a/left.ecore#//ComponentPrototypeActual"/>
+    </differences>
+    <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_a/left.ecore#/"/>
+    <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_a/right.ecore#/"/>
+  </matches>
+</compare:Comparison>

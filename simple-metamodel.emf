@@ -1,0 +1,14 @@
+@namespace(uri="pslsimple", prefix="")
+package pslsimple;
+
+class Project {
+	id attr String title;
+	attr String description;
+	val Task[*] tasks;
+}
+
+class Task {
+	attr String title;
+	attr int start;
+	attr int duration;
+}

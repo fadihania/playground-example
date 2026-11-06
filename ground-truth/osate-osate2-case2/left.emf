@@ -1,0 +1,70 @@
+package aadl2;
+
+enum ComponentCategory {
+  ~abstract = 0;
+  bus = 1;
+  data = 2;
+  device = 3;
+  memory = 4;
+  process = 5;
+  processor = 6;
+  subprogram = 7;
+  subprogramGroup = 8;
+  system = 9;
+  thread = 10;
+  threadGroup = 11;
+  virtualBus = 12;
+  virtualProcessor = 13;
+}
+
+class AbstractPrototype {
+}
+
+class BusPrototype {
+}
+
+class DataPrototype {
+}
+
+class DevicePrototype {
+}
+
+class MemoryPrototype {
+}
+
+class ProcessPrototype {
+}
+
+class ProcessorPrototype {
+}
+
+class SubprogramPrototype {
+}
+
+class SubprogramGroupPrototype {
+}
+
+class SystemPrototype {
+}
+
+class ThreadPrototype {
+}
+
+class ThreadGroupPrototype {
+}
+
+class VirtualBusPrototype {
+}
+
+class VirtualProcessorPrototype {
+}
+
+abstract class ComponentPrototype {
+  attr Boolean[1] array;
+  ref ComponentClassifier[0..1] constrainingClassifier;
+}
+
+datatype Boolean : boolean;
+
+abstract class ComponentClassifier {
+}

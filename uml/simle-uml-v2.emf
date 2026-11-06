@@ -1,0 +1,14 @@
+@namespace(uri="uml")
+package uml;
+
+//class User {
+	//attr String name;
+//}
+
+class Customer {
+	val Account[*] accounts;
+}
+
+class Account {
+	attr double balance;
+}

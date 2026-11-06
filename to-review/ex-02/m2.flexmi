@@ -1,0 +1,6 @@
+<?nsuri pslsimple?>
+<project title="ACME">
+	<task title="Analysis" start="1" dur="3" />
+	<task title="Design" start="4" dur="6" />
+	<task title="Implementation" start="10" dur="6" />
+</project>

@@ -1,0 +1,11 @@
+package banking;
+
+class AccountType {
+}
+
+// Fail: AccountType1, AccountTypeClient, or AccountTypeState
+// Succeed: AccountTypeCustomer with third word 7+ characters
+
+// Check that with Hash-Based approach
+abstract class AccountTypeClient {
+}

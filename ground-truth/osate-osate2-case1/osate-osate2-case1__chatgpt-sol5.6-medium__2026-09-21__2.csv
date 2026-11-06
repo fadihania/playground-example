@@ -1,0 +1,8 @@
+"left_element","right_element","match_status","confidence","rationale"
+"aadl2","aadl2","restructured","High","Same package name, nsURI, and defaulted metadata; Left adds AbstractFeatureClassifier and restructures AbstractFeature's references."
+"aadl2::AbstractFeature","aadl2::AbstractFeature","restructured","High","Same class and package, but its single componentClassifier reference is replaced by two classifier-selection references."
+"aadl2::ComponentClassifier","aadl2::ComponentClassifier","exact","High","Same abstract EClass with no declared features or supertypes in either version."
+"aadl2::FeaturePrototype","aadl2::FeaturePrototype","exact","High","Same concrete EClass with no declared features or supertypes; the new incoming reference does not change its declaration."
+"aadl2::AbstractFeatureClassifier","","left_only","High","New concrete EClass with no declared features or supertypes; it is targeted by AbstractFeature.abstractFeatureClassifier."
+"aadl2::AbstractFeature::featurePrototype","aadl2::AbstractFeature::componentClassifier","split","Medium","Same owner and default 0..1 noncontainment reference role, but Left specializes part of the former classifier selection toward FeaturePrototype; the changed target prevents stronger equivalence."
+"aadl2::AbstractFeature::abstractFeatureClassifier","aadl2::AbstractFeature::componentClassifier","split","Medium","Same owner and default 0..1 noncontainment reference role, but Left redirects part of the former classifier selection to the newly introduced AbstractFeatureClassifier; no explicit constraint confirms exclusivity with featurePrototype."

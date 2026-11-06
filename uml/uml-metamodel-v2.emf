@@ -1,0 +1,54 @@
+@namespace(uri="uml")
+package uml;
+
+class ThesisSystem {
+	val Department[0..*] departments;
+	
+	val TeachingStaffMember[0..*] teachingStaff;
+	val Student[0..*] students;
+	
+	val Thesis[0..*] theses;
+}
+
+class Department {
+	attr int identifier;
+	attr String name;
+	
+	val TeachingStaffMember[0..*]#department teachingStaff;
+}
+
+class User {
+	attr int identifier;
+	attr String forename;
+	attr String surname;
+	attr String emailAddress;
+	attr String username;
+	attr String password;
+}
+
+class TeachingStaffMember extends User {
+	// Is this correct?
+	ref Thesis[0..*]#supervisor supervisedTheses;
+	ref Thesis[0..*]#examiners examinedTheses;
+	
+	ref Department#teachingStaff department;
+}
+
+class Student extends User {
+	ref Thesis[0..1]#students thesis;
+}
+
+class Thesis {
+	attr int identifier;
+	attr String title;
+	attr String absrct;
+	attr String link;
+	attr int grade;
+	attr String subject;
+	
+	val Student [1..*] stduents;
+	
+	ref TeachingStaffMember[1..*]#examinedTheses examiners;
+	ref TeachingStaffMember[1..*]#supervisedTheses supervisor;
+}
+

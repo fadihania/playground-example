@@ -1,0 +1,10 @@
+@namespace(uri="uml")
+package uml;
+
+//class Building {
+	//attr String name;
+//}
+
+class Customer {
+	attr double balance;
+}

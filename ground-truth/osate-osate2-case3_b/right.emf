@@ -1,0 +1,40 @@
+package aadl2;
+
+abstract class ComponentPrototypeActual {
+  attr ComponentCategory category;
+}
+
+class ComponentReference {
+  val PrototypeBinding[*] binding;
+  ref ComponentClassifier[1] classifier;
+}
+
+class ComponentPrototypeReference {
+  ref ComponentPrototype[1] prototype;
+}
+
+enum ComponentCategory {
+  ~abstract = 0;
+  bus = 1;
+  data = 2;
+  device = 3;
+  memory = 4;
+  process = 5;
+  processor = 6;
+  subprogram = 7;
+  subprogramGroup = 8;
+  system = 9;
+  thread = 10;
+  threadGroup = 11;
+  virtualBus = 12;
+  virtualProcessor = 13;
+}
+
+abstract class PrototypeBinding {
+}
+
+abstract class ComponentClassifier {
+}
+
+class ComponentPrototype {
+}

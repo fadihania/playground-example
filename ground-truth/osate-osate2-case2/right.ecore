@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="aadl2" nsURI="aadl2" nsPrefix="">
+  <eClassifiers xsi:type="ecore:EClass" name="ComponentReference"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ComponentPrototypeReference"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="ComponentCategory">
+    <eLiterals name="abstract"/>
+    <eLiterals name="bus" value="1"/>
+    <eLiterals name="data" value="2"/>
+    <eLiterals name="device" value="3"/>
+    <eLiterals name="memory" value="4"/>
+    <eLiterals name="process" value="5"/>
+    <eLiterals name="processor" value="6"/>
+    <eLiterals name="subprogram" value="7"/>
+    <eLiterals name="subprogramGroup" value="8"/>
+    <eLiterals name="system" value="9"/>
+    <eLiterals name="thread" value="10"/>
+    <eLiterals name="threadGroup" value="11"/>
+    <eLiterals name="virtualBus" value="12"/>
+    <eLiterals name="virtualProcessor" value="13"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ComponentPrototype">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="category" lowerBound="1"
+        eType="#//ComponentCategory"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="array" lowerBound="1" eType="#//Boolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="constrainingClassifier"
+        eType="#//ComponentClassifier"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="Boolean" instanceClassName="boolean"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ComponentClassifier" abstract="true"/>
+</ecore:EPackage>

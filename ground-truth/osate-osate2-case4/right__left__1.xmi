@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ASCII"?>
+<compare:Comparison xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compare="http://www.eclipse.org/emf/compare">
+  <matchedResources leftURI="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore"/>
+  <matchedResources rightURI="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore"/>
+  <matches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.0/@differences.0" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArraySize"/>
+        </differences>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArrayDimension/size"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@differences.1" requiredBy="//@matches.0/@submatches.0/@submatches.0/@differences.0">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArrayDimension/size"/>
+      </differences>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArrayDimension"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@differences.1 //@matches.0/@submatches.1/@differences.0" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArrayDimension"/>
+        </differences>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArrayableElement/arrayDimension"/>
+      </submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@differences.5 //@matches.0/@submatches.1/@differences.1" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArraySpecification"/>
+        </differences>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArrayableElement/arraySpecification"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.1/@submatches.0/@differences.0">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArrayableElement/arrayDimension"/>
+      </differences>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.1/@submatches.1/@differences.0" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArrayableElement/arraySpecification"/>
+      </differences>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArrayableElement"/>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArrayableElement"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.2/@differences.0" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//Integer"/>
+        </differences>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArraySize/size"/>
+      </submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@differences.0 //@matches.0/@submatches.2/@differences.1" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArraySizeProperty"/>
+        </differences>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArraySize/sizeProperty"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.2/@submatches.0/@differences.0">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArraySize/size"/>
+      </differences>
+      <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.2/@submatches.1/@differences.0">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArraySize/sizeProperty"/>
+      </differences>
+      <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+        <attribute href="http://www.eclipse.org/emf/2002/Ecore#//EClass/abstract"/>
+      </differences>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArraySize"/>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArraySize"/>
+    </submatches>
+    <submatches>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArraySizeProperty"/>
+    </submatches>
+    <submatches>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@differences.0">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eSuperTypes"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArraySizeProperty"/>
+      </differences>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//PropertyConstant"/>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//PropertyConstant"/>
+    </submatches>
+    <submatches>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//Property"/>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//Property"/>
+    </submatches>
+    <submatches>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//Integer"/>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//Integer"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.7/@differences.0" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//Integer"/>
+        </differences>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArraySpecification/dimension"/>
+      </submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.7/@differences.1" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArraySize"/>
+        </differences>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArraySpecification/size"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.7/@submatches.0/@differences.0" requiredBy="//@matches.0/@differences.5" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArraySpecification/dimension"/>
+      </differences>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.7/@submatches.1/@differences.0" requiredBy="//@matches.0/@differences.5" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArraySpecification/size"/>
+      </differences>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArraySpecification"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.8/@differences.1" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//Property"/>
+        </differences>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//PropertyReference/property"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@differences.4" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eSuperTypes"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArraySize"/>
+      </differences>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.8/@submatches.0/@differences.0" requiredBy="//@matches.0/@differences.4" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//PropertyReference/property"/>
+      </differences>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//PropertyReference"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.9/@differences.1" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//PropertyConstant"/>
+        </differences>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ConstantValue/constant"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@differences.3" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eSuperTypes"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArraySize"/>
+      </differences>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.9/@submatches.0/@differences.0" requiredBy="//@matches.0/@differences.3" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ConstantValue/constant"/>
+      </differences>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ConstantValue"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.10/@differences.1" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//Integer"/>
+        </differences>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//Numeral/value"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@differences.2" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eSuperTypes"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArraySize"/>
+      </differences>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.10/@submatches.0/@differences.0" requiredBy="//@matches.0/@differences.2" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//Numeral/value"/>
+      </differences>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//Numeral"/>
+    </submatches>
+    <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.2/@submatches.1/@differences.0 //@matches.0/@submatches.4/@differences.0">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArraySizeProperty"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.0/@differences.0 //@matches.0/@submatches.1/@submatches.0/@differences.0">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#//ArrayDimension"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.10/@differences.0 //@matches.0/@submatches.10/@differences.1" kind="DELETE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//Numeral"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.9/@differences.0 //@matches.0/@submatches.9/@differences.1" kind="DELETE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ConstantValue"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.8/@differences.0 //@matches.0/@submatches.8/@differences.1" kind="DELETE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//PropertyReference"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.1/@submatches.1/@differences.0 //@matches.0/@submatches.7/@differences.0 //@matches.0/@submatches.7/@differences.1" kind="DELETE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#//ArraySpecification"/>
+    </differences>
+    <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/left.ecore#/"/>
+    <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case4/right.ecore#/"/>
+  </matches>
+</compare:Comparison>

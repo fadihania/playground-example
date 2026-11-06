@@ -1,0 +1,18 @@
+package aadl2;
+
+class AbstractFeature {
+	ref FeaturePrototype featurePrototype;
+	ref AbstractFeatureClassifier abstractFeatureClassifier;
+}
+
+abstract class ComponentClassifier {
+	
+}
+
+class FeaturePrototype {
+	
+}
+
+class AbstractFeatureClassifier {
+	
+}

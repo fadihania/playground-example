@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="ASCII"?>
+<compare:Comparison xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compare="http://www.eclipse.org/emf/compare">
+  <matchedResources leftURI="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore"/>
+  <matchedResources rightURI="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore"/>
+  <matches>
+    <submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/abstract"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/abstract"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/bus"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/bus"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/data"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/data"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/device"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/device"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/memory"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/memory"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/process"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/process"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/processor"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/processor"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/subprogram"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/subprogram"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/subprogramGroup"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/subprogramGroup"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/system"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/system"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/thread"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/thread"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/threadGroup"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/threadGroup"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/virtualBus"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/virtualBus"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory/virtualProcessor"/>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory/virtualProcessor"/>
+      </submatches>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory"/>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.1/@differences.0" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentCategory"/>
+        </differences>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentPrototypeActual/category"/>
+      </submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.1/@differences.1" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//PrototypeBinding"/>
+        </differences>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentPrototypeActual/binding"/>
+      </submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@differences.1 //@matches.0/@submatches.1/@differences.2" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//SubcomponentType"/>
+        </differences>
+        <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentPrototypeActual/subcomponentType"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.1/@submatches.0/@differences.0">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentPrototypeActual/category"/>
+      </differences>
+      <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.1/@submatches.1/@differences.0">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentPrototypeActual/binding"/>
+      </differences>
+      <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.1/@submatches.2/@differences.0">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentPrototypeActual/subcomponentType"/>
+      </differences>
+      <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+        <attribute href="http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name"/>
+      </differences>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentPrototypeActual"/>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentPrototype"/>
+    </submatches>
+    <submatches>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//PrototypeBinding"/>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//PrototypeBinding"/>
+    </submatches>
+    <submatches>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//SubcomponentType"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.4/@differences.0" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentCategory"/>
+        </differences>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentPrototypeActual/category"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.4/@submatches.0/@differences.0" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentPrototypeActual/category"/>
+      </differences>
+      <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+        <attribute href="http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name"/>
+      </differences>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentPrototype"/>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentPrototypeActual"/>
+    </submatches>
+    <submatches>
+      <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentClassifier"/>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentClassifier"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.6/@differences.0" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentPrototype"/>
+        </differences>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentPrototypeReference/prototype"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.6/@submatches.0/@differences.0" requiredBy="//@matches.0/@differences.4" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentPrototypeReference/prototype"/>
+      </differences>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentPrototypeReference"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.7/@differences.0" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//PrototypeBinding"/>
+        </differences>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentReference/binding"/>
+      </submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.7/@differences.1" kind="CHANGE">
+          <reference href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType"/>
+          <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentClassifier"/>
+        </differences>
+        <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentReference/classifier"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.7/@submatches.0/@differences.0" requiredBy="//@matches.0/@differences.3" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentReference/binding"/>
+      </differences>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.7/@submatches.1/@differences.0" requiredBy="//@matches.0/@differences.3" kind="DELETE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentReference/classifier"/>
+      </differences>
+      <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentReference"/>
+    </submatches>
+    <differences xsi:type="compare:ReferenceChange" kind="MOVE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentPrototypeActual"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.1/@submatches.2/@differences.0">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//SubcomponentType"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" kind="MOVE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#//ComponentPrototype"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.7/@differences.0 //@matches.0/@submatches.7/@differences.1" kind="DELETE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentReference"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.6/@differences.0" kind="DELETE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#//ComponentPrototypeReference"/>
+    </differences>
+    <left href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/left.ecore#/"/>
+    <right href="platform:/resource/playground-example/ground-truth/osate-osate2-case3_c/right.ecore#/"/>
+  </matches>
+</compare:Comparison>

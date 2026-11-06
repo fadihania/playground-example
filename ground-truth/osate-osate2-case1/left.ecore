@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="aadl2" nsURI="aadl2" nsPrefix="">
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractFeature">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="featurePrototype" eType="#//FeaturePrototype"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="abstractFeatureClassifier"
+        eType="#//AbstractFeatureClassifier"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ComponentClassifier" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="FeaturePrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractFeatureClassifier"/>
+</ecore:EPackage>

@@ -1,0 +1,25 @@
+package aadl2;
+
+class ArraySize {
+  attr Integer[1] size;
+  ref ArraySizeProperty[0..1] sizeProperty;
+}
+
+datatype Integer : long;
+
+abstract class ArraySizeProperty {
+}
+
+class PropertyConstant extends ArraySizeProperty {
+}
+
+class Property {
+}
+
+abstract class ArrayableElement {
+  val ArrayDimension[*] arrayDimension;
+}
+
+class ArrayDimension {
+  val ArraySize[0..1] size;
+}

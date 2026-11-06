@@ -1,0 +1,58 @@
+@namespace(uri="aadl2")
+package aadl2;
+
+class ComponentPrototype extends Prototype {
+	attr boolean array;
+	attr ComponentCategory category;
+	ref ComponentClassifier constrainingClassifier;
+}
+
+class ComponentPrototypeActual extends Element {
+	attr ComponentCategory category;
+}
+
+abstract class Prototype {
+	ref Prototype refined;
+}
+
+abstract class Element {
+	
+}
+
+abstract class ArrayableElement extends Element {
+	
+}
+
+class ComponentReference {
+	ref PrototypeBinding binding;
+	ref ComponentClassifier classifier;
+}
+
+class ComponentPrototypeReference {
+	ref ComponentPrototype prototype;
+}
+
+abstract class PrototypeBinding {
+	
+}
+
+abstract class ComponentClassifier {
+	
+}
+
+enum ComponentCategory {
+	abstrct=0;
+	bus=1;
+    data=2;
+    device=3;
+    memory=4;
+    process=5;
+    processor=6;
+    subprogram=7;
+    subprogramGroup=8;
+    system=9;
+    thread=10;
+    threadGroup=11;
+    virtualBus=12;
+    virtualProcessor=13;
+}

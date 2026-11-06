@@ -1,0 +1,11 @@
+left_element,right_element,match_status,confidence,rationale
+"psl::Project[title=ACME]","psl::Project[title=ACME]","exact","High","Same project title and corresponding contained tasks and people."
+"psl::Project[title=ACME]/tasks[1]","psl::Project[title=ACME]/tasks[1]","probable_rename","Medium","Requirements Elicitation replaces Analysis in the same position; both have one effort assigned to Alice. The new title suggests a narrower scope."
+"psl::Project[title=ACME]/tasks[1]/effort[1]","psl::Project[title=ACME]/tasks[1]/effort[1]","exact","Corresponding task effort refers to Alice; percentage is the Ecore default of 100 in both."
+"psl::Project[title=ACME]/tasks[2]","psl::Project[title=ACME]/tasks[2]","exact","Design has the same title and corresponding effort."
+"psl::Project[title=ACME]/tasks[2]/effort[1]","psl::Project[title=ACME]/tasks[2]/effort[1]","exact","Corresponding Design effort refers to Samuel/Sam; percentage defaults to 100 in both."
+"psl::Project[title=ACME]/tasks[3]","psl::Project[title=ACME]/tasks[3]","exact","Implementation has the same title and two corresponding efforts."
+"psl::Project[title=ACME]/tasks[3]/effort[1]","psl::Project[title=ACME]/tasks[3]/effort[1]","exact","Corresponding Implementation effort refers to Samuel/Sam at 50 percent."
+"psl::Project[title=ACME]/tasks[3]/effort[2]","psl::Project[title=ACME]/tasks[3]/effort[2]","exact","Corresponding Implementation effort refers to Alice at 50 percent."
+"psl::Project[title=ACME]/people[1]","psl::Project[title=ACME]/people[1]","exact","Alice retains the same name and corresponding effort references."
+"psl::Project[title=ACME]/people[2]","psl::Project[title=ACME]/people[2]","probable_rename","Samuel replaces Sam; corresponding Design and Implementation efforts reference this person."

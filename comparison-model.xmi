@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ASCII"?>
+<compare:Comparison xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compare="http://www.eclipse.org/emf/compare">
+  <matchedResources leftURI="platform:/resource/playground-example/model-modifications.ecore"/>
+  <matchedResources rightURI="platform:/resource/playground-example/model-modifications2.ecore"/>
+  <matches>
+    <submatches>
+      <submatches>
+        <submatches>
+          <submatches>
+            <left href="platform:/resource/playground-example/model-modifications.ecore#//Effort/person/%diagram%/@details.0"/>
+            <right href="platform:/resource/playground-example/model-modifications2.ecore#//Effort/person/%diagram%/@details.0"/>
+          </submatches>
+          <left href="platform:/resource/playground-example/model-modifications.ecore#//Effort/person/%diagram%"/>
+          <right href="platform:/resource/playground-example/model-modifications2.ecore#//Effort/person/%diagram%"/>
+        </submatches>
+        <left href="platform:/resource/playground-example/model-modifications.ecore#//Effort/person"/>
+        <right href="platform:/resource/playground-example/model-modifications2.ecore#//Effort/person"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/model-modifications.ecore#//Effort/percentage"/>
+        <right href="platform:/resource/playground-example/model-modifications2.ecore#//Effort/percentage"/>
+      </submatches>
+      <left href="platform:/resource/playground-example/model-modifications.ecore#//Effort"/>
+      <right href="platform:/resource/playground-example/model-modifications2.ecore#//Effort"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <submatches>
+          <submatches>
+            <left href="platform:/resource/playground-example/model-modifications.ecore#//Task/effort/%diagram%/@details.0"/>
+            <right href="platform:/resource/playground-example/model-modifications2.ecore#//Task/effort/%diagram%/@details.0"/>
+          </submatches>
+          <left href="platform:/resource/playground-example/model-modifications.ecore#//Task/effort/%diagram%"/>
+          <right href="platform:/resource/playground-example/model-modifications2.ecore#//Task/effort/%diagram%"/>
+        </submatches>
+        <left href="platform:/resource/playground-example/model-modifications.ecore#//Task/effort"/>
+        <right href="platform:/resource/playground-example/model-modifications2.ecore#//Task/effort"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/model-modifications.ecore#//Task/title"/>
+        <right href="platform:/resource/playground-example/model-modifications2.ecore#//Task/title"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/model-modifications.ecore#//Task/start"/>
+        <right href="platform:/resource/playground-example/model-modifications2.ecore#//Task/start"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/model-modifications.ecore#//Task/duration"/>
+        <right href="platform:/resource/playground-example/model-modifications2.ecore#//Task/duration"/>
+      </submatches>
+      <left href="platform:/resource/playground-example/model-modifications.ecore#//Task"/>
+      <right href="platform:/resource/playground-example/model-modifications2.ecore#//Task"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <submatches>
+          <submatches>
+            <left href="platform:/resource/playground-example/model-modifications.ecore#//Project/people/%diagram%/@details.0"/>
+            <right href="platform:/resource/playground-example/model-modifications2.ecore#//Project/people/%diagram%/@details.0"/>
+          </submatches>
+          <left href="platform:/resource/playground-example/model-modifications.ecore#//Project/people/%diagram%"/>
+          <right href="platform:/resource/playground-example/model-modifications2.ecore#//Project/people/%diagram%"/>
+        </submatches>
+        <left href="platform:/resource/playground-example/model-modifications.ecore#//Project/people"/>
+        <right href="platform:/resource/playground-example/model-modifications2.ecore#//Project/people"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/model-modifications.ecore#//Project/title"/>
+        <right href="platform:/resource/playground-example/model-modifications2.ecore#//Project/title"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/model-modifications.ecore#//Project/description"/>
+        <right href="platform:/resource/playground-example/model-modifications2.ecore#//Project/description"/>
+      </submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/model-modifications.ecore#//Project/tasks"/>
+        <right href="platform:/resource/playground-example/model-modifications2.ecore#//Project/tasks"/>
+      </submatches>
+      <left href="platform:/resource/playground-example/model-modifications.ecore#//Project"/>
+      <right href="platform:/resource/playground-example/model-modifications2.ecore#//Project"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/model-modifications.ecore#//Person/name"/>
+        <right href="platform:/resource/playground-example/model-modifications2.ecore#//Person/name"/>
+      </submatches>
+      <left href="platform:/resource/playground-example/model-modifications.ecore#//Person"/>
+      <right href="platform:/resource/playground-example/model-modifications2.ecore#//Person"/>
+    </submatches>
+    <differences xsi:type="compare:ReferenceChange" kind="MOVE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/model-modifications.ecore#//Task"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" kind="MOVE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/model-modifications.ecore#//Person"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" kind="MOVE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/model-modifications.ecore#//Effort"/>
+    </differences>
+    <left href="platform:/resource/playground-example/model-modifications.ecore#/"/>
+    <right href="platform:/resource/playground-example/model-modifications2.ecore#/"/>
+  </matches>
+</compare:Comparison>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="aadl2" nsURI="aadl2" nsPrefix="">
+  <eClassifiers xsi:type="ecore:EClass" name="ComponentImplementation" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedAbstractSubcomponent"
+        upperBound="-1" eType="#//AbstractSubcomponent" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedAccessConnection"
+        upperBound="-1" eType="#//AccessConnection" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedEventDataSource" upperBound="-1"
+        eType="#//EventDataSource" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedEventSource" upperBound="-1"
+        eType="#//EventSource" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//ComponentType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedSubcomponent" upperBound="-1"
+        eType="#//Subcomponent"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="extended" eType="#//ComponentImplementation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedFlowImplementation"
+        upperBound="-1" eType="#//FlowImplementation" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedConnection" upperBound="-1"
+        eType="#//Connection"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedExtension" eType="#//ImplementationExtension"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedRealization" lowerBound="1"
+        eType="#//Realization" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedEndToEndFlow" upperBound="-1"
+        eType="#//EndToEndFlow" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedParameterConnection"
+        upperBound="-1" eType="#//ParameterConnection" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedPortConnection" upperBound="-1"
+        eType="#//PortConnection" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedFeatureConnection"
+        upperBound="-1" eType="#//FeatureConnection" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedFeatureGroupConnection"
+        upperBound="-1" eType="#//FeatureGroupConnection" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="noSubcomponents" lowerBound="1"
+        eType="#//Boolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="noConnections" lowerBound="1"
+        eType="#//Boolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="noCalls" lowerBound="1"
+        eType="#//Boolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedProcessorFeature"
+        upperBound="-1" eType="#//ProcessorFeature"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedInternalFeature" upperBound="-1"
+        eType="#//InternalFeature"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedPortProxy" upperBound="-1"
+        eType="#//PortProxy" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedSubprogramProxy" upperBound="-1"
+        eType="#//SubprogramProxy" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractSubcomponent"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AccessConnection"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EventDataSource" eSuperTypes="#//InternalFeature"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EventSource" eSuperTypes="#//InternalFeature"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ComponentClassifier" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ComponentType" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Subcomponent" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="FlowImplementation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Connection" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ImplementationExtension"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Realization"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EndToEndFlow"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ParameterConnection"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PortConnection"/>
+  <eClassifiers xsi:type="ecore:EClass" name="FeatureConnection"/>
+  <eClassifiers xsi:type="ecore:EClass" name="FeatureGroupConnection"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="Boolean" instanceClassName="boolean"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessorFeature" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="InternalFeature" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PortProxy" eSuperTypes="#//PortConnectionEnd"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SubprogramProxy" eSuperTypes="#//AccessConnectionEnd"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ComponentPrototype" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ComponentPrototypeActual"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AccessConnectionEnd" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PortConnectionEnd" abstract="true"/>
+</ecore:EPackage>

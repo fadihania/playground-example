@@ -1,0 +1,7 @@
+package aadl2;
+
+abstract class ComponentPrototype {
+}
+
+class ComponentPrototypeActual {
+}

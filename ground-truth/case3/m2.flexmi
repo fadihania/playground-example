@@ -1,0 +1,15 @@
+<?nsuri pslreport?>
+<project title="ACME">
+	<person name="Alice"/>
+	<person name="Sam"/>
+	<task title="Analysis">
+		<effort person="Alice" percentage="100"/>
+	</task>
+	<task title="Design">
+		<effort person="Sam" percentage="100"/>
+	</task>
+	<task title="Implementation">
+		<effort person="Sam" percentage="50"/>
+		<effort person="Alice" percentage="50"/>
+	</task>
+</project>

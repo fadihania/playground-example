@@ -1,0 +1,15 @@
+<?nsuri psl?>
+<project title="ACME">
+	<person name="Alice"/>
+	<person name="Samuel"/>
+	<task title="Requirements Elicitation" start="1" dur="3">
+		<effort person="Alice"/>
+	</task>
+	<task title="Design" start="4" dur="6">
+		<effort person="Samuel"/>
+	</task>
+	<task title="Implementation" start="4" dur="6">
+		<effort person="Samuel" percentage="50"/>
+		<effort person="Alice" percentage="50"/>
+	</task>
+</project>

@@ -1,0 +1,6 @@
+@namespace(uri="pslreport", prefix="")
+package psl;
+
+class Building {
+	id attr String name;
+}

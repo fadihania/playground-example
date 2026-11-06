@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="aadl2" nsURI="aadl2" nsPrefix="">
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractPrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="BusPrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DataPrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DevicePrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="MemoryPrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessPrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessorPrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SubprogramPrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SubprogramGroupPrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SystemPrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ThreadPrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ThreadGroupPrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="VirtualBusPrototype"/>
+  <eClassifiers xsi:type="ecore:EClass" name="VirtualProcessorPrototype"/>
+</ecore:EPackage>

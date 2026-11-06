@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="aadl2" nsURI="aadl2" nsPrefix="">
+  <eClassifiers xsi:type="ecore:EClass" name="ArraySize">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="size" lowerBound="1" eType="#//Integer"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sizeProperty" eType="#//ArraySizeProperty"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="Integer" instanceClassName="long"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ArraySizeProperty" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyConstant" eSuperTypes="#//ArraySizeProperty"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Property"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayableElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="arrayDimension" upperBound="-1"
+        eType="#//ArrayDimension" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayDimension">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="size" eType="#//ArraySize"
+        containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>

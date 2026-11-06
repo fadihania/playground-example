@@ -1,0 +1,7 @@
+package banking;
+
+abstract class AccountType {
+}
+
+class AccountTypeClient {
+}

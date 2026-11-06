@@ -1,0 +1,101 @@
+package aadl2;
+
+abstract class ComponentImplementation {
+  val AbstractSubcomponent[*] ownedAbstractSubcomponent;	// Missed in the large model
+  val AccessConnection[*] ownedAccessConnection;			// Missed in the large model
+  val EventDataSource[*] ownedEventDataSource;
+  val EventSource[*] ownedEventSource;
+  ref ComponentType[1] type;
+  ref Subcomponent[*] ownedSubcomponent;
+  ref ComponentImplementation[0..1] extended;
+  val FlowImplementation[*] ownedFlowImplementation;
+  ref Connection[*] ownedConnection;						// Missed in this smaller case
+  val ImplementationExtension[0..1] ownedExtension;
+  val Realization[1] ownedRealization;
+  val EndToEndFlow[*] ownedEndToEndFlow;
+  val ParameterConnection[*] ownedParameterConnection;
+  val PortConnection[*] ownedPortConnection;				// Missed in the large model
+  val FeatureConnection[*] ownedFeatureConnection;
+  val FeatureGroupConnection[*] ownedFeatureGroupConnection;
+  attr Boolean[1] noSubcomponents;
+  attr Boolean[1] noConnections;
+  attr Boolean[1] noCalls;
+  ref ProcessorFeature[*] ownedProcessorFeature;
+  ref InternalFeature[*] ownedInternalFeature;
+  val PortProxy[*] ownedPortProxy;							// Missed in large model and matched with ownedConnection in this smaller case
+  val SubprogramProxy[*] ownedSubprogramProxy;
+}
+
+class AbstractSubcomponent {
+}
+
+class AccessConnection {
+}
+
+class EventDataSource extends InternalFeature {
+}
+
+class EventSource extends InternalFeature {
+}
+
+abstract class ComponentClassifier {
+}
+
+abstract class ComponentType {
+}
+
+abstract class Subcomponent {
+}
+
+class FlowImplementation {
+}
+
+abstract class Connection {
+}
+
+class ImplementationExtension {
+}
+
+class Realization {
+}
+
+class EndToEndFlow {
+}
+
+class ParameterConnection {
+}
+
+class PortConnection {
+}
+
+class FeatureConnection {
+}
+
+class FeatureGroupConnection {
+}
+
+datatype Boolean : boolean;
+
+abstract class ProcessorFeature {
+}
+
+abstract class InternalFeature {
+}
+
+class PortProxy extends PortConnectionEnd {
+}
+
+class SubprogramProxy extends AccessConnectionEnd {
+}
+
+abstract class ComponentPrototype {
+}
+
+class ComponentPrototypeActual {
+}
+
+abstract class AccessConnectionEnd {
+}
+
+abstract class PortConnectionEnd {
+}

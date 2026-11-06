@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<compare:Comparison xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compare="http://www.eclipse.org/emf/compare">
+  <matchedResources leftURI="platform:/resource/playground-example/ground-truth/case1/mm1.ecore"/>
+  <matchedResources rightURI="platform:/resource/playground-example/ground-truth/case1/mm2.ecore"/>
+  <matches>
+    <submatches>
+      <submatches>
+        <left href="platform:/resource/playground-example/ground-truth/case1/mm1.ecore#//Building/name"/>
+        <right href="platform:/resource/playground-example/ground-truth/case1/mm2.ecore#//Customer/name"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@differences.0" requiredBy="//@matches.0/@differences.1" kind="MOVE">
+        <reference href="http://www.eclipse.org/emf/2002/Ecore#//EClass/eStructuralFeatures"/>
+        <value href="platform:/resource/playground-example/ground-truth/case1/mm1.ecore#//Building/name"/>
+      </differences>
+      <left href="platform:/resource/playground-example/ground-truth/case1/mm1.ecore#//Building"/>
+    </submatches>
+    <submatches>
+      <right href="platform:/resource/playground-example/ground-truth/case1/mm2.ecore#//Customer"/>
+    </submatches>
+    <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.0/@differences.0">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/case1/mm1.ecore#//Building"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.0/@differences.0" kind="DELETE">
+      <reference href="http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers"/>
+      <value href="platform:/resource/playground-example/ground-truth/case1/mm2.ecore#//Customer"/>
+    </differences>
+    <left href="platform:/resource/playground-example/ground-truth/case1/mm1.ecore#/"/>
+    <right href="platform:/resource/playground-example/ground-truth/case1/mm2.ecore#/"/>
+  </matches>
+</compare:Comparison>

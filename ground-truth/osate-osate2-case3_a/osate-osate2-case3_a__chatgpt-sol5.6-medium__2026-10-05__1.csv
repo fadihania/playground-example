@@ -1,0 +1,4 @@
+"left_element","right_element","match_status","confidence","rationale"
+"aadl2","aadl2","exact","High","Same EPackage name, nsURI aadl2, empty nsPrefix, and corresponding classifier context."
+"aadl2::ComponentPrototype","aadl2::ComponentPrototype","restructured","High","Same EClass and owner; abstract changed from the Ecore default false in Right to explicitly true in Left."
+"aadl2::ComponentPrototypeActual","aadl2::ComponentPrototypeActual","restructured","High","Same EClass and owner; abstract changed from explicitly true in Right to the Ecore default false in Left."

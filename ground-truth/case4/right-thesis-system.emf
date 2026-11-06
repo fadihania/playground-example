@@ -1,0 +1,46 @@
+@namespace(uri="thesis", prefix="")
+package thesis;
+
+class ThesisSystem {
+	val Thesis[*] theses;
+	val Department[*] departments;
+	val Student[*] students;
+	val TeachingStaffMember[*] teachingStaff;
+}
+
+class Thesis {
+	id attr int identifier;
+	attr String title;
+	attr String abstrct;
+	attr String link;
+	attr int grade;
+	attr String topic;
+	
+	val Student[*] students;
+	val TeachingStaffMember[*] examinars;
+	val TeachingStaffMember[*] supervisors;
+}
+
+class Student {
+	attr int identifier;
+	attr String forename;
+	attr String surname;
+	attr String emailAddress;
+	attr String username;
+	attr String password;
+}
+
+class TeachingStaffMember {
+	attr int identifier;
+	attr String name;
+	attr String emailAddress;
+	attr String username;
+	attr String password;
+}
+
+class Department {
+	attr int identifier;
+	attr String name;
+	
+	val TeachingStaffMember[*] teachingStaff;
+}

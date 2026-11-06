@@ -1,0 +1,8 @@
+"left_element","right_element","match_status","confidence","rationale"
+"aadl2","aadl2","exact","High","Same EPackage name, nsURI, and empty nsPrefix."
+"aadl2::AbstractFeature","aadl2::AbstractFeature","restructured","High","Same EClass and domain role, but its single componentClassifier reference was replaced by two more specific classifier-selection references."
+"aadl2::ComponentClassifier","aadl2::ComponentClassifier","exact","High","Same abstract EClass with no declared features or supertypes."
+"aadl2::FeaturePrototype","aadl2::FeaturePrototype","exact","High","Same EClass with no declared features or supertypes."
+"aadl2::AbstractFeatureClassifier","aadl2::AbstractFeatureClassifier","exact","High","Same EClass with no declared features or supertypes."
+"aadl2::AbstractFeature::featurePrototype","aadl2::AbstractFeature::componentClassifier","split","High","The former optional noncontainment ComponentClassifier reference was split into classifier-selection alternatives; this branch targets FeaturePrototype. Other reference defaults remain equivalent."
+"aadl2::AbstractFeature::abstractFeatureClassifier","aadl2::AbstractFeature::componentClassifier","split","High","The former optional noncontainment ComponentClassifier reference was split into classifier-selection alternatives; this branch targets AbstractFeatureClassifier. Other reference defaults remain equivalent."

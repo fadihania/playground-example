@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ASCII"?>
+<compare:Comparison xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compare="http://www.eclipse.org/emf/compare">
+  <matchedResources leftURI="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi" rightURI="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi"/>
+  <matches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@differences.3" kind="CHANGE">
+          <reference href="pslreport#//Effort/person"/>
+          <value href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@people.1"/>
+        </differences>
+        <left href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.3/@effort.0"/>
+        <right href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#//@tasks.1/@effort.1"/>
+      </submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@differences.2" kind="CHANGE">
+          <reference href="pslreport#//Effort/person"/>
+          <value href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@people.0"/>
+        </differences>
+        <left href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.3/@effort.1"/>
+        <right href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#//@tasks.1/@effort.0"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" kind="MOVE">
+        <reference href="pslreport#//Task/effort"/>
+        <value href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.3/@effort.1"/>
+      </differences>
+      <left href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.3"/>
+      <right href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#//@tasks.1"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.1/@differences.0" kind="CHANGE">
+          <reference href="pslreport#//Effort/person"/>
+          <value href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@people.1"/>
+        </differences>
+        <left href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.2/@effort.0"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.1/@submatches.0/@differences.0">
+        <reference href="pslreport#//Task/effort"/>
+        <value href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.2/@effort.0"/>
+      </differences>
+      <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+        <attribute href="pslreport#//Task/title"/>
+      </differences>
+      <left href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.2"/>
+      <right href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#//@tasks.0"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.2/@differences.0" kind="CHANGE">
+          <reference href="pslreport#//Effort/person"/>
+          <value href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@people.1"/>
+        </differences>
+        <left href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.1/@effort.0"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@differences.1" requiredBy="//@matches.0/@submatches.2/@submatches.0/@differences.0">
+        <reference href="pslreport#//Task/effort"/>
+        <value href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.1/@effort.0"/>
+      </differences>
+      <left href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.1"/>
+    </submatches>
+    <submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@differences.2" kind="CHANGE">
+          <reference href="pslreport#//Effort/person"/>
+          <value href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@people.0"/>
+        </differences>
+        <left href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.0/@effort.0"/>
+        <right href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#//@tasks.0/@effort.0"/>
+      </submatches>
+      <submatches>
+        <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@differences.3 //@matches.0/@submatches.3/@differences.1" kind="CHANGE">
+          <reference href="pslreport#//Effort/person"/>
+          <value href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#//@people.1"/>
+        </differences>
+        <right href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#//@tasks.2/@effort.0"/>
+      </submatches>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@differences.0" kind="MOVE">
+        <reference href="pslreport#//Task/effort"/>
+        <value href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.0/@effort.0"/>
+      </differences>
+      <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.3/@submatches.1/@differences.0" kind="DELETE">
+        <reference href="pslreport#//Task/effort"/>
+        <value href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#//@tasks.2/@effort.0"/>
+      </differences>
+      <left href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.0"/>
+      <right href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#//@tasks.2"/>
+    </submatches>
+    <submatches>
+      <left href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@people.0"/>
+    </submatches>
+    <submatches>
+      <differences xsi:type="compare:AttributeChange" kind="CHANGE">
+        <attribute href="pslreport#//Person/name"/>
+      </differences>
+      <left href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@people.1"/>
+      <right href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#//@people.0"/>
+    </submatches>
+    <submatches>
+      <right href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#//@people.1"/>
+    </submatches>
+    <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.3/@differences.0" kind="MOVE">
+      <reference href="pslreport#//Project/tasks"/>
+      <value href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.0"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.2/@differences.0">
+      <reference href="pslreport#//Project/tasks"/>
+      <value href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@tasks.1"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" requiredBy="//@matches.0/@submatches.0/@submatches.1/@differences.0 //@matches.0/@submatches.3/@submatches.0/@differences.0">
+      <reference href="pslreport#//Project/people"/>
+      <value href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#//@people.0"/>
+    </differences>
+    <differences xsi:type="compare:ReferenceChange" requires="//@matches.0/@submatches.0/@submatches.0/@differences.0 //@matches.0/@submatches.3/@submatches.1/@differences.0" kind="DELETE">
+      <reference href="pslreport#//Project/people"/>
+      <value href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#//@people.1"/>
+    </differences>
+    <left href="platform:/resource/playground-example/1st-report/ex1/m1.flexmi.xmi#ACME"/>
+    <right href="platform:/resource/playground-example/1st-report/ex1/m2.flexmi.xmi#ACME"/>
+  </matches>
+</compare:Comparison>

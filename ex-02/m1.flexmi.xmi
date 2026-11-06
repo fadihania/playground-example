@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="pslsimple" title="ACME">
+  <tasks title="Analysis" start="1" duration="3"/>
+  <tasks title="High-Level Design" start="4" duration="3"/>
+  <tasks title="Low-Level Design" start="7" duration="3"/>
+  <tasks title="Implementation" start="10" duration="6"/>
+</Project>

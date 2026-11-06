@@ -1,0 +1,29 @@
+package aadl2;
+
+abstract class ComponentType {
+  attr ecore.EFeatureMapEntry[*] features;
+  val Feature[*] ownedFeature;
+  ref ComponentType[0..1] extended;
+  val FlowSpecification[*] ownedFlowSpecification;
+  ref TypeExtension[0..1] ownedExtension;
+  val FeatureGroup[*] ownedFeatureGroup;
+  val AbstractFeature[*] ownedAbstractFeature;
+  attr Boolean[1] noFeatures;
+}
+
+abstract class Feature {
+}
+
+class FlowSpecification {
+}
+
+class TypeExtension {
+}
+
+class FeatureGroup {
+}
+
+class AbstractFeature {
+}
+
+datatype Boolean : boolean;

@@ -1,0 +1,33 @@
+@namespace(uri="psl", prefix="")
+package psl;
+
+class Project {
+	id attr String title;
+	attr String description;
+	val Task[*] tasks;
+
+	@diagram(direction="right")
+	val Person[*]#project people;
+}
+
+class Task {
+	attr String title;
+	attr int start;
+	attr int duration;
+
+	@diagram(direction="right")
+	val Effort[*] effort;
+}
+
+class Person {
+	attr String name;
+	ref Project#people project;
+}
+
+class Effort {
+
+	@diagram(direction="up")
+	ref Person person;
+	attr int percentage = 100;
+}
+

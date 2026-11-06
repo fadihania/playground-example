@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml2CD:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml2CD="http://uml2CD" xmi:id="_hjBKIIcVEfCrVPsm4XUKFg" owner="_pDSLsIcXEfCrVPsm4XUKFg">
+  <ownedElement xsi:type="uml2CD:Class" xmi:id="_pDSLsIcXEfCrVPsm4XUKFg" name="ThesisSystem"/>
+  <ownedElement xsi:type="uml2CD:Class" xmi:id="_4io1oIcXEfCrVPsm4XUKFg" name="Thesis">
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_1HhuwIcZEfCrVPsm4XUKFg" name="id" type="_eaKmAIcZEfCrVPsm4XUKFg"/>
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_duLX0IcbEfCh-tDkBe4bPQ" name="title" type="_Ysq3sIcZEfCrVPsm4XUKFg"/>
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_fwJPkIcbEfCh-tDkBe4bPQ" name="abstract" type="_Ysq3sIcZEfCrVPsm4XUKFg"/>
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_iueo8IcbEfCh-tDkBe4bPQ" name="link" type="_Ysq3sIcZEfCrVPsm4XUKFg"/>
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_kylOsIcbEfCh-tDkBe4bPQ" name="grade" type="_eaKmAIcZEfCrVPsm4XUKFg"/>
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_mQpvMIcbEfCh-tDkBe4bPQ" name="subject" type="_Ysq3sIcZEfCrVPsm4XUKFg"/>
+  </ownedElement>
+  <ownedElement xsi:type="uml2CD:Class" xmi:id="_T-j0sIcXEfCrVPsm4XUKFg" owner="_HesTUIcaEfCrVPsm4XUKFg" name="User">
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_BaEecIcaEfCrVPsm4XUKFg" name="id" type="_eaKmAIcZEfCrVPsm4XUKFg"/>
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_88gG8IcZEfCrVPsm4XUKFg" name="forename" type="_Ysq3sIcZEfCrVPsm4XUKFg"/>
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_DJIBQIcaEfCrVPsm4XUKFg" name="surname" type="_Ysq3sIcZEfCrVPsm4XUKFg"/>
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_HesTUIcaEfCrVPsm4XUKFg" name="emailAddress" type="_Ysq3sIcZEfCrVPsm4XUKFg"/>
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_Kz-NEIcaEfCrVPsm4XUKFg" name="username" type="_Ysq3sIcZEfCrVPsm4XUKFg"/>
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_M2rrsIcaEfCrVPsm4XUKFg" name="password" type="_Ysq3sIcZEfCrVPsm4XUKFg"/>
+  </ownedElement>
+  <ownedElement xsi:type="uml2CD:Class" xmi:id="_LHXGUIceEfCh-tDkBe4bPQ" owner="_QHqXcIceEfCh-tDkBe4bPQ" name="TeachingStaffMember" superClass="_T-j0sIcXEfCrVPsm4XUKFg"/>
+  <ownedElement xsi:type="uml2CD:Class" xmi:id="_UBGHIIceEfCh-tDkBe4bPQ" name="Student" superClass="_T-j0sIcXEfCrVPsm4XUKFg"/>
+  <packagedElement xsi:type="uml2CD:Class" xmi:id="_0hHg8IcXEfCrVPsm4XUKFg" name="Department">
+    <ownedElement xsi:type="uml2CD:Property" xmi:id="_zORuIIcZEfCrVPsm4XUKFg" name="id" type="_eaKmAIcZEfCrVPsm4XUKFg"/>
+    <ownedAttribute xmi:id="_5mLrYIcZEfCrVPsm4XUKFg" name="name" type="_Ysq3sIcZEfCrVPsm4XUKFg"/>
+  </packagedElement>
+  <packagedElement xsi:type="uml2CD:PrimitiveType" xmi:id="_Ysq3sIcZEfCrVPsm4XUKFg" name="String"/>
+  <packagedElement xsi:type="uml2CD:PrimitiveType" xmi:id="_eaKmAIcZEfCrVPsm4XUKFg" name="int"/>
+  <packagedElement xsi:type="uml2CD:Class" xmi:id="_FSrx8IceEfCh-tDkBe4bPQ" name="TeachingStaffMember" superClass="_T-j0sIcXEfCrVPsm4XUKFg"/>
+  <packagedElement xsi:type="uml2CD:Class" xmi:id="_QHqXcIceEfCh-tDkBe4bPQ" name="Student" superClass="_T-j0sIcXEfCrVPsm4XUKFg"/>
+</uml2CD:Package>
